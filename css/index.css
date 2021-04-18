@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 168px;;
+}
+
+.navLinksHeader {
+    display: flex;
+    width: 632px;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.navLinksHeader a {
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
