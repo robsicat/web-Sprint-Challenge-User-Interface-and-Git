@@ -190,6 +190,10 @@ header img {
     padding-bottom: 24px;
 }
 
+.aboutMiddleSection {
+    padding: 0% 1%;
+}
+
 .aboutMiddleSection-row1, .aboutMiddleSection-row2 {
     display: flex;
 }
