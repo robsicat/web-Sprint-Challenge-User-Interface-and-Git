@@ -235,7 +235,13 @@ footer {
     background: black;
 }
 
-footer nav {
+
+.aboutBottomSection {
+    padding: 0% 1%;
+    margin-bottom: 32px;
+}
+
+footer ul {
     width: 60%;
     display: flex;
     justify-content: space-between;
