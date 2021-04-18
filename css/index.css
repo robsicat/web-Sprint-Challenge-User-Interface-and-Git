@@ -179,6 +179,9 @@ header img {
     background-color: dodgerblue;
 }
 
+.aboutHeaderText p {
+    margin-bottom: 24px;
+}
 
 .bottom-content {
     display: flex;
