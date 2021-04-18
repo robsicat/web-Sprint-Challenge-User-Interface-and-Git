@@ -85,7 +85,6 @@ header img {
     width: 168px;
 }
 
-/* Home page styling */
 
 .navLinksHeader {
     display: flex;
@@ -98,7 +97,18 @@ header img {
 .navLinksHeader a {
     text-decoration: none;
     color: black;
+    padding: 12px 16px;
 }
+
+.navLinksHeader a:hover {
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* Home page styling */
 
 .topHeaderImage {
     margin-bottom: 24px;
@@ -265,5 +275,13 @@ footer ul {
 
 footer nav a {
     color: white;
+    text-decoration: none;
+    padding: 20px 16px;
+}
+
+footer nav a:hover {
+    color: black;
+    background-color: white;
+    padding: 20px 16px;
     text-decoration: none;
 }
